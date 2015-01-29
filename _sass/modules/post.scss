@@ -1,0 +1,16 @@
+.post-list {
+	list-style-type: none;
+}
+
+.post-list li {
+	text-align: center;
+}
+
+.post-list hr:last-of-type {
+//hides the last hr in the post list
+	display: none;
+}
+
+.page-title {
+	font-family: $body-font;
+}

@@ -1,0 +1,34 @@
+---
+# Keep this front matter block here, or the SCSS will not work.
+# Stylesheets for the Walter Theme
+# Author: Shane Boland
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+/* Tools */
+@import "tools/variables";
+@import "tools/mixins";
+@import "tools/animations";
+
+
+/* Base */
+@import "base/normalize";
+@import "base/global";
+@import "base/typography";
+
+
+/* Layout */
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/layout";
+
+
+/* Modules */
+@import "modules/buttons";
+@import "modules/post";
+
+
+/* Vendor */

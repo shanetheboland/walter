@@ -1,0 +1,37 @@
+typography
+	-Leading (pronounced “ledding”) is so called because, in mechanical presses, strips of lead are placed between lines of type to space the lines apart. Leading is achieved in CSS through the line-height property. For example 12 point text can be given 3 points of lead in the following manner: 
+	(http://webtypography.net/2.2.1)
+
+	-The most common addition of vertical space on a webpage is that inserted between paragraphs. If the rhythm of the page is to be maintained, the spacing of paragraphs should be related to the basic leading. For example, the text on this page is set at 12 px with a line-height of 1.5 em, making each line 18 px in height. In order to keep the rhythm of the text, the vertical spacing between blocks should also be 18 px. This is achieved by setting top- and bottom-margins equal to the line height.
+	(http://webtypography.net/2.2.2)
+
+	-Browsers add margins, always define your own margin...."It should be noted that the default treatment by web browsers of paragraphs (and other block level elements such as blockquotes and lists) is to insert a top- and bottom-margin of 1 em. The implication is that margins must always be specified by the designer."
+	(http://webtypography.net/2.2.2)
+
+	-Asymmetrical margins on headers-- One can also set asymmetrical margins for headings, provided the margins combine to be multiples of the basic line height. For example, a top margin of 1½ lines could be combined with a bottom margin of half a line as follows:
+	(http://webtypography.net/2.2.2)
+
+	-Images "On the Web, images in sidebars and within the main body of text are almost always guilty of disrupting the rhythm of text. The same rules should be applied to images as to headings: any image and associated caption should take up multiples of the basic line height. For example the image on this page demonstrating asymmetrical headings is 180 px tall – precisely 10 lines in height."
+	(http://webtypography.net/2.2.2)
+
+	-Set text-indent as 0 for first paragraph after headers and etc.
+	(http://webtypography.net/2.3.1)
+		p + p {
+		  text-indent: 1em;
+		}
+
+
+	-Blockquotes should get left,right,top,bottom margin equal to vertical rhythm
+
+	-Setting .verses (music lyrics?)
+		(http://webtypography.net/2.3.4)
+
+	-Type scale
+		body { font-size: 100%; }
+		h1 { font-size: 2.25em;  /* 16x2.25=36 */ }
+		h2 { font-size: 1.5em;   /* 16x1.5=24 */ }
+		h3 { font-size: 1.125em; /* 16x1.125=18 */ }
+		h4 { font-size: 0.875em; /* 16x0.875=14 */ }
+		p  { font-size: 0.75em;  /* 16x0.75=12 */ }
+
+		paragraph styles are 20px. base is 20px. 30px line height?

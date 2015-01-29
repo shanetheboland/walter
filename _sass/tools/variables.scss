@@ -1,0 +1,31 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+
+
+// Fonts
+$body-font: 'Lato', Helvetica, Arial, sans-serif;
+$header-font: 'Sorts Mill Goudy', georgia, serif;
+$small-font: $body-font;
+
+// Colors
+$black:  #24281a;
+$white:  #d5d5d3;
+$yellow: #ceab07;
+$orange: #c27d38;
+$blue: 	 #798e87;
+$darkblue: darken($blue,15%);
+
+
+// Color Aliases
+$background-color: $white;
+$secondary-color:  $blue;
+$text-color:       $black;
+$link-color:	   $yellow;
+$dark-link-color:  $orange;
+
+// Spacing
+$spacing-unit:    30px;
+$lg-spacing-unit: $spacing-unit * 2; //60px
+$content-width: $spacing-unit * 20; //600px
+
