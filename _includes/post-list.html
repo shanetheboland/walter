@@ -1,12 +1,15 @@
 <ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-timestamp small">{{ post.date | date: "%b %-d, %Y" }}</span>
+{% assign blog = (site.posts | where: "layout" , "post") %}
+  {% for post in blog %}
+    
+      <li>
+        <span class="post-timestamp small">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-    <hr>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+      <hr class="thin">
+
   {% endfor %}
 </ul>

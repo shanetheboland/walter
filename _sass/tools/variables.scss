@@ -4,8 +4,8 @@
 
 
 // Fonts
-$body-font: 'Lato', Helvetica, Arial, sans-serif;
-$header-font: 'Sorts Mill Goudy', georgia, serif;
+$body-font: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+$header-font: 'Merriweather', georgia, serif;
 $small-font: $body-font;
 
 // Colors
@@ -28,4 +28,6 @@ $dark-link-color:  $orange;
 $spacing-unit:    30px;
 $lg-spacing-unit: $spacing-unit * 2; //60px
 $content-width: $spacing-unit * 20; //600px
+
+$border-radius: 4px;
 

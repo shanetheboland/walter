@@ -26,10 +26,22 @@ p { font: normal 400 20px/1.5 $body-font; margin-bottom: $spacing-unit;}
   =========================================================================== */
 
 .intro {
-	margin: $spacing-unit;
+	padding: $spacing-unit/2 $spacing-unit;
 	text-align: center;
 }
 
 .strikethrough {
   text-decoration: line-through;
+}
+
+hr {
+    border: 0;
+    border-bottom: dotted 2px $secondary-color;
+    margin: $spacing-unit auto;
+}
+
+hr.thin {
+  border: 0;
+  border-bottom: solid 1px $secondary-color;
+  margin: $spacing-unit/2 auto;
 }

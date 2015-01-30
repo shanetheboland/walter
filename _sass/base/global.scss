@@ -38,8 +38,12 @@ a {
     }
 }
 
-hr {
-    border: 0;
-    border-bottom: dotted 2px $secondary-color;
-    margin: $spacing-unit auto;
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }

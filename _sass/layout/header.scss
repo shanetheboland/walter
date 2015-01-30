@@ -35,3 +35,17 @@
 		}
 	}
 }
+@media screen and (max-width:730px) {
+	.site-navigation, .site-title {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+	.site-navigation-link {
+		float: none;
+	}
+	.site-header {
+		height: $lg-spacing-unit * 2;
+	}
+}

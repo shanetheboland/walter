@@ -1,0 +1,15 @@
+<ul class="post-list">
+{% assign portfolio = (site.posts | where: "layout" , "work") %}
+  {% for post in portfolio %}
+    
+	    <li>
+	      <span class="post-timestamp small">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+	      <h2>
+	        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	      </h2>
+	    </li>
+	    <hr class="thin">
+	    
+  {% endfor %}
+</ul>

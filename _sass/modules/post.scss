@@ -4,6 +4,8 @@
 
 .post-list li {
 	text-align: center;
+	margin-top: $lg-spacing-unit;
+	margin-bottom: $lg-spacing-unit;
 }
 
 .post-list hr:last-of-type {
@@ -13,4 +15,22 @@
 
 .page-title {
 	font-family: $body-font;
+}
+
+.featured-work {
+	text-align: center;
+
+	img {
+		margin: $spacing-unit auto;
+		border-radius: $border-radius;
+	}
+
+	.post-link {
+		color: $secondary-color;
+	}
+
+	span {
+		vertical-align: middle;
+	}
+	
 }
