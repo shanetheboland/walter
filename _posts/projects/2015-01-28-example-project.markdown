@@ -3,7 +3,7 @@ layout: project
 title:  "Example Project"
 date:   2015-01-28 18:24:43
 categories: jekyll update
-thumbnail: colors.jpg
+thumbnail: thumbnail.jpg
 featured: true
 excerpt: In this project, there were many demons jumping from the walls. They kept falling from the walls and it just wouldn't stop. You should have seen how many demons there were. Probably like ten or twelve
 ---
