@@ -8,6 +8,7 @@
 .site-title {
 	line-height: $lg-spacing-unit;
 	float: left;
+	white-space: nowrap;
 	color: $secondary-color;
 	&:visited {
 		color: $secondary-color;

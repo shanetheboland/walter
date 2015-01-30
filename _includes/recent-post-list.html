@@ -1,4 +1,4 @@
-<ul class="post-list">
+<ul class="post-list cf">
 {% assign blog = (site.posts | where: "layout" , "post") %}
   {% for post in blog limit:2 %}
 
@@ -11,4 +11,5 @@
       </li>
       
   {% endfor %}
+  <a href="{{ site.baseurl }}/blog" alt="Blog page" class="pull-right">View all Posts &rarr;</a>
 </ul>

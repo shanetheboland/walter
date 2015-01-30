@@ -1,6 +1,6 @@
-<ul class="post-list">
-{% assign portfolio = (site.posts | where: "layout" , "work") %}
-  {% for post in portfolio %}
+<ul class="post-list cf">
+{% assign projects = (site.posts | where: "layout" , "project") %}
+  {% for post in projects %}
     
 	    <li>
 	      <span class="post-timestamp small">{{ post.date | date: "%b %-d, %Y" }}</span>
