@@ -2,8 +2,18 @@
 layout: page
 title: Welcome
 ---
-<p>Hey how's it going? My name is Shane. I am front-end web designer. Interested in working together on a project? <a href="mailto:{{site.email}}" alt="Email me">Send me an email</a> and I'll get back to you as soon as possible.
+<p class="align-center">Hey how's it going? My name is Shane. I am front-end web designer. Interested in working together on a project? <a href="mailto:{{site.email}}" alt="Email me">Send me an email</a> and I'll get back to you as soon as possible.
 
 <hr>
 
-{% include post-list.html %}
+<section class="featured-work">
+	<h3 class="align-center">Featured Work</h3>
+	{% include featured-work.html %}
+</section>
+
+<hr>
+
+<section class="recent-post-list">
+	<h3 class="align-center">Recent Blog Posts</h3>
+	{% include recent-post-list.html %}
+</section>

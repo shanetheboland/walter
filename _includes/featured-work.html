@@ -1,0 +1,12 @@
+{% assign featured_portfolio = (site.posts | where: "layout" , "work") %}
+  {% for post in featured_portfolio %}
+  	{% if post.featured == true %}
+
+	   <img src="{{ site.baseurl }}/images/{{ post.thumbnail }}" alt="Portfolio thumbnail for {{post.title}}">
+	   <h2>
+	   	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} | <span class="post-timestamp small">{{ post.date | date: "%b %-d, %Y" }}</span></a>
+	   </h2>
+	   <p>{{ post.excerpt }}...</p>
+
+  	{% endif %}
+  {% endfor %}
