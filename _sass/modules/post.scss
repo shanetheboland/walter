@@ -17,7 +17,7 @@
 	font-family: $body-font;
 }
 
-.featured-work {
+.featured-projects {
 	text-align: center;
 
 	img {
@@ -25,8 +25,14 @@
 		border-radius: $border-radius;
 	}
 
-	.post-link {
+	a {
 		color: $secondary-color;
+		&:visited {
+			color: $secondary-color;
+		}
+		&:hover {
+			color: darken($secondary-color,15%);
+		}
 	}
 
 	span {

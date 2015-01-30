@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: project
 title:  "Example Project"
 date:   2015-01-28 18:24:43
 categories: jekyll update
